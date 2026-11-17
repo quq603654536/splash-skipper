@@ -1,0 +1,34 @@
+# Local SDK downloads and generated artifacts
+/tools/
+/build/
+/dist/
+/tests/out/
+*.class
+*.apk
+*.aab
+*.apks
+*.dex
+*.zip
+
+# Signing material and local secrets
+.signing/
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+local.properties
+
+# Logs, caches, device captures and editor state
+*.log
+__pycache__/
+*.py[cod]
+.gradle/
+.idea/
+*.iml
+.vscode/
+.DS_Store
